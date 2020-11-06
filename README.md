@@ -4,11 +4,9 @@
 
 The purpose for this analysis is to search through an employee database to figure out which employees will retire this year. I used PostgreSQL and created csv files in order to determine which employees would retire. Also in order to create an ERD to help with the process, I used QuickDBD (ERD code found in Class Notes file). 
 
-(insert photo -ERD)
+![EmployeeDB.png](EmployeeDB.png)
 
 # Results: 
-
-Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 
 ## Deliverable 1
 
@@ -19,24 +17,23 @@ I was able to determine which employee roles that had the most amount of employe
 
 The role with the least amount of employees retiring is Managers with only 2 managers retiring. 
 
-Here is a photo of the output
+**Here is a photo of the output:
 
-(insert photo-deliverable1_table)
+![deliverable1_table.png](deliverable1_table.png)
 
 ## Deliverable 2
 
 The employer decided that there will be a mentorship program offered to those who are about to retire to mentor new-hires. This program is offered to those born on 1965. I was able to find which employees were eligible and their titles.
 
-Here is an snippet of part of my table of the results
+**Here is an snippet of part of my table of the results
 
-(insert photo-deliverable2_table)
+![deliverable2_table.png](deliverable2_table.png)
 
 # Summary: 
 
-Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-- How many roles will need to be filled as the "silver tsunami" begins to make an impact? There is 90,398 employees that are projected to retire from the company. If you assume that 100% of those who are eligible will take the oportunity, there are 1,549 employees who could accept being part of this program.
+There is 90,398 employees that are projected to retire from the company. If you assume that 100% of those who are eligible will take the oportunity, there are 1,549 employees who could accept being part of this program.
 
-(insert photo - summary_eligibility)
+![summary_eligibility.png](summary_eligibility.png)
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 Based on the percentage alone, there doesn't seem to be enough retiring employees that are capable of mentoring the next generation. 
@@ -85,8 +82,8 @@ ORDER BY dept_no;
 SELECT * FROM mentorship_dept_name
 ```
 
-This was the result that I got:
+**This was the result that I got:
 
-(insert photo here - mentorship_department)
+![mentorship_department.png](mentorship_department.png)
 
 Based on this query, based on the sheer number of employees, there isn't enough mentors to distribute throughout each department. 
