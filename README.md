@@ -2,7 +2,9 @@
 
 # Overview of the analysis: 
 
-The purpose for this analysis is to search through an employee database to figure out which employees will retire this year. I used PostgreSQL and created csv files in order to determine which employees would retire. Also in order to create an ERD to help with the process, I used QuickDBD (ERD found in Class Notes file). 
+The purpose for this analysis is to search through an employee database to figure out which employees will retire this year. I used PostgreSQL and created csv files in order to determine which employees would retire. Also in order to create an ERD to help with the process, I used QuickDBD (ERD code found in Class Notes file). 
+
+(insert photo -ERD)
 
 # Results: 
 
