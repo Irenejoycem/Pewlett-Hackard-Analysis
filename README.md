@@ -17,7 +17,7 @@ I was able to determine which employee roles that had the most amount of employe
 
 The role with the least amount of employees retiring is Managers with only 2 managers retiring. 
 
-**Here is a photo of the output:
+**Here is a photo of the output:**
 
 ![deliverable1_table.png](deliverable1_table.png)
 
@@ -25,7 +25,7 @@ The role with the least amount of employees retiring is Managers with only 2 man
 
 The employer decided that there will be a mentorship program offered to those who are about to retire to mentor new-hires. This program is offered to those born on 1965. I was able to find which employees were eligible and their titles.
 
-**Here is an snippet of part of my table of the results
+**Here is an snippet of part of my table of the results**
 
 ![deliverable2_table.png](deliverable2_table.png)
 
@@ -35,7 +35,6 @@ There is 90,398 employees that are projected to retire from the company. If you 
 
 ![summary_eligibility.png](summary_eligibility.png)
 
-- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 Based on the percentage alone, there doesn't seem to be enough retiring employees that are capable of mentoring the next generation. 
 
 I did a query to see how many eligible mentors are in each department:
@@ -82,7 +81,7 @@ ORDER BY dept_no;
 SELECT * FROM mentorship_dept_name
 ```
 
-**This was the result that I got:
+**This was the result that I got:**
 
 ![mentorship_department.png](mentorship_department.png)
 
